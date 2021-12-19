@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5def122-c868-4a58-83b8-989ff0729aa3" name="Changes" comment="gitignore">
+    <list default="true" id="d5def122-c868-4a58-83b8-989ff0729aa3" name="Changes" comment="- changes to workspace (from .gitingore?)&#10;- add constants to Pong class">
+      <change afterPath="$PROJECT_DIR$/src/PongPanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Pong.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pong.java" afterDir="false" />
     </list>
@@ -77,7 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1639716083635</updated>
       <workItem from="1639716085675" duration="3571000" />
-      <workItem from="1639952347009" duration="599000" />
+      <workItem from="1639952347009" duration="1462000" />
     </task>
     <task id="LOCAL-00001" summary="Created Pong as JFrame">
       <created>1639717598469</created>
@@ -100,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639718082463</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="- changes to workspace (from .gitingore?)&#10;- add constants to Pong class">
+      <created>1639953191319</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1639953191319</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,6 +129,7 @@
     <MESSAGE value="Created Pong as JFrame" />
     <MESSAGE value="remove the old gitignore and add a new one" />
     <MESSAGE value="gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="gitignore" />
+    <MESSAGE value="- changes to workspace (from .gitingore?)&#10;- add constants to Pong class" />
+    <option name="LAST_COMMIT_MESSAGE" value="- changes to workspace (from .gitingore?)&#10;- add constants to Pong class" />
   </component>
 </project>
