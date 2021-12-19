@@ -1,5 +1,5 @@
 import javax.swing.JPanel;
-import java.awt.*;
+import java.awt.Color;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
@@ -7,8 +7,13 @@ import java.awt.event.KeyListener;
 
 public class PongPanel extends JPanel implements ActionListener, KeyListener {
 
+    private static final Color BACKGROUND_COLOR = Color.BLACK;
+    private static final int POINTS_NEEDED_TO_WIN = 11;
+    private static final int PADDLE_WIDTH = 6;
+    private static final int PADDLE_HEIGHT = 20;
+
     public PongPanel() {
-        setBackground(Color.BLACK);
+        setBackground(BACKGROUND_COLOR);
     }
 
     @Override
