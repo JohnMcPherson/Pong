@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5def122-c868-4a58-83b8-989ff0729aa3" name="Changes" comment="- added vertical, centred, dotted line">
-      <change beforePath="$PROJECT_DIR$/src/Sprite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sprite.java" afterDir="false" />
+    <list default="true" id="d5def122-c868-4a58-83b8-989ff0729aa3" name="Changes" comment="- add code for keeping within bounds">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_jupiter.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/TestPong.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pong.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Pong.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,9 +56,10 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager">
     <configuration name="Pong" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -145,7 +149,21 @@
       <option name="project" value="LOCAL" />
       <updated>1639968579581</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="- add code for keeping within bounds">
+      <created>1639973479806</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1639973479806</updated>
+    </task>
+    <task id="LOCAL-00011" summary="- add code for keeping within bounds">
+      <created>1639973607538</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1639973607538</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +189,7 @@
     <MESSAGE value="- move static parameters to PongPanel" />
     <MESSAGE value="- add update, repaint and test paintComponent" />
     <MESSAGE value="- added vertical, centred, dotted line" />
-    <option name="LAST_COMMIT_MESSAGE" value="- added vertical, centred, dotted line" />
+    <MESSAGE value="- add code for keeping within bounds" />
+    <option name="LAST_COMMIT_MESSAGE" value="- add code for keeping within bounds" />
   </component>
 </project>
