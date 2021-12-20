@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5def122-c868-4a58-83b8-989ff0729aa3" name="Changes" comment="- move static parameters to PongPanel">
+    <list default="true" id="d5def122-c868-4a58-83b8-989ff0729aa3" name="Changes" comment="- add update, repaint and test paintComponent">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PongPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PongPanel.java" afterDir="false" />
     </list>
@@ -77,7 +77,7 @@
       <option name="presentableId" value="Default" />
       <updated>1639716083635</updated>
       <workItem from="1639716085675" duration="3571000" />
-      <workItem from="1639952347009" duration="4208000" />
+      <workItem from="1639952347009" duration="4941000" />
     </task>
     <task id="LOCAL-00001" summary="Created Pong as JFrame">
       <created>1639717598469</created>
@@ -121,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639954806101</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="- add update, repaint and test paintComponent">
+      <created>1639958533766</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1639958533766</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +152,7 @@
     <MESSAGE value="- changes to workspace (from .gitingore?)&#10;- add constants to Pong class" />
     <MESSAGE value="- added PongPanel" />
     <MESSAGE value="- move static parameters to PongPanel" />
-    <option name="LAST_COMMIT_MESSAGE" value="- move static parameters to PongPanel" />
+    <MESSAGE value="- add update, repaint and test paintComponent" />
+    <option name="LAST_COMMIT_MESSAGE" value="- add update, repaint and test paintComponent" />
   </component>
 </project>
