@@ -1,7 +1,9 @@
+package main;
+
 import javax.swing.JFrame;
 
 public class Pong extends JFrame {
-    private static final String TITLE = "Pong";
+    private static final String TITLE = "main.Pong";
     private static final int SCREEN_WIDTH = 800;
     private static final int SCREEN_HEIGHT = 600;
 

@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5def122-c868-4a58-83b8-989ff0729aa3" name="Changes" comment="- add code for keeping within bounds">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_jupiter.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/TestPong.java" afterDir="false" />
+    <list default="true" id="d5def122-c868-4a58-83b8-989ff0729aa3" name="Changes" comment="- add empty test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pong.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Pong.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pong.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Pong.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PongPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/PongPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sprite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Sprite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/TestPong.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/TestPong.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,21 +58,40 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.TestPong">
     <configuration name="Pong" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Pong" />
+      <option name="MAIN_CLASS_NAME" value="main.Pong" />
       <module name="Pong" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in Pong" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Pong" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPong" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Pong" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestPong" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestPong" />
+        <item itemvalue="JUnit.All in Pong" />
         <item itemvalue="Application.Pong" />
       </list>
     </recent_temporary>
@@ -163,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639973607538</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="- add empty test">
+      <created>1639974253880</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1639974253880</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +218,7 @@
     <MESSAGE value="- add update, repaint and test paintComponent" />
     <MESSAGE value="- added vertical, centred, dotted line" />
     <MESSAGE value="- add code for keeping within bounds" />
-    <option name="LAST_COMMIT_MESSAGE" value="- add code for keeping within bounds" />
+    <MESSAGE value="- add empty test" />
+    <option name="LAST_COMMIT_MESSAGE" value="- add empty test" />
   </component>
 </project>

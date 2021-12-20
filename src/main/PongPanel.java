@@ -1,3 +1,5 @@
+package main;
+
 import javax.swing.JPanel;
 import javax.swing.Timer;
 import java.awt.*;
