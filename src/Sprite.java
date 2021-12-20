@@ -5,10 +5,22 @@ public class Sprite {
     private int xVelocity, yVelocity;
     private int width, height;
     private Color colour;
+    private PongPanel pongPanel;
 
     public void setxPosition(int xPosition) {
         this.xPosition = xPosition;
     }
+
+    public void setxPosition(int newX, int panelWidth) {
+        this.xPosition = getWithinBounds(newX, panelWidth);
+    }
+
+    private int getWithinBounds(int proposedValue, int maximum) {
+        if (proposedValue < 0) return 0;
+        else if (proposedValue > maximum) return maximum;
+        else return proposedValue;
+    }
+
 
     public int getxPosition() {
         return xPosition;
@@ -16,6 +28,10 @@ public class Sprite {
 
     public void setyPosition(int yPosition) {
         this.yPosition = yPosition;
+    }
+
+    public void setyPosition(int newY, int panelHeight) {
+        this.yPosition = getWithinBounds(newY, panelHeight);
     }
 
     public int getyPosition() {
