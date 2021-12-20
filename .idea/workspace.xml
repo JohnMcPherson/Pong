@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5def122-c868-4a58-83b8-989ff0729aa3" name="Changes" comment="- add empty test">
+    <list default="true" id="d5def122-c868-4a58-83b8-989ff0729aa3" name="Changes" comment="- test setyPosition(newY, panelHeight)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pong.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Pong.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pong.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Pong.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PongPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/PongPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sprite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Sprite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/TestPong.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/TestPong.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Sprite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Sprite.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639974253880</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="- test setyPosition(newY, panelHeight)">
+      <created>1639976325264</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1639976325264</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,6 +222,7 @@
     <MESSAGE value="- added vertical, centred, dotted line" />
     <MESSAGE value="- add code for keeping within bounds" />
     <MESSAGE value="- add empty test" />
-    <option name="LAST_COMMIT_MESSAGE" value="- add empty test" />
+    <MESSAGE value="- test setyPosition(newY, panelHeight)" />
+    <option name="LAST_COMMIT_MESSAGE" value="- test setyPosition(newY, panelHeight)" />
   </component>
 </project>

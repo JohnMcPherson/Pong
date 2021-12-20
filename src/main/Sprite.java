@@ -1,20 +1,31 @@
 package main;
 
 import java.awt.Color;
+import java.awt.Rectangle;
 
 public class Sprite {
     private int xPosition, yPosition;
+    private int initialXPosition, initialYPosition;
     private int xVelocity, yVelocity;
     private int width, height;
     private Color colour;
-    private PongPanel pongPanel;
 
     public void setxPosition(int xPosition) {
         this.xPosition = xPosition;
     }
 
     public void setxPosition(int newX, int panelWidth) {
-        this.xPosition = getWithinBounds(newX, panelWidth);
+        this.xPosition = getWithinBounds(newX, panelWidth - width);
+    }
+
+    public void setInitialPosition(int initialXPosition, int initialYPosition) {
+        this.initialXPosition = initialXPosition;
+        this.initialYPosition = initialYPosition;
+    }
+
+    public void resetToInitialPosition() {
+        setxPosition(initialXPosition);
+        setyPosition(initialYPosition);
     }
 
     private int getWithinBounds(int proposedValue, int maximum) {
@@ -33,7 +44,7 @@ public class Sprite {
     }
 
     public void setyPosition(int newY, int panelHeight) {
-        this.yPosition = getWithinBounds(newY, panelHeight);
+        this.yPosition = getWithinBounds(newY, panelHeight - height);
     }
 
     public int getyPosition() {
@@ -78,5 +89,9 @@ public class Sprite {
 
     public Color getColor() {
         return colour;
+    }
+
+    public Rectangle getRectangle() {
+        return new Rectangle(getxPosition(), getyPosition(), getWidth(), getHeight());
     }
 }
