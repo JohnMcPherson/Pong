@@ -15,6 +15,8 @@ public class PongPanel extends JPanel implements ActionListener, KeyListener {
     private static final int POINTS_NEEDED_TO_WIN = 11;
     private static final int PADDLE_WIDTH = 6;
     private static final int PADDLE_HEIGHT = 20;
+    private boolean gameInitialised;
+    private Ball ball;
 
     public PongPanel() {
         setBackground(BACKGROUND_COLOR);
@@ -22,8 +24,15 @@ public class PongPanel extends JPanel implements ActionListener, KeyListener {
             timer.start();
     }
 
-    private void update() {
+    private void createObjects() {
+        ball = new Ball(getWidth(), getHeight());
+     }
 
+    private void update() {
+        if (!gameInitialised) {
+            createObjects();
+            gameInitialised = true;
+        }
     }
 
     @Override
@@ -51,6 +60,9 @@ public class PongPanel extends JPanel implements ActionListener, KeyListener {
     public void paintComponent(Graphics graphics) {
         super.paintComponent(graphics);
         paintDottedLine(graphics);
+        if(gameInitialised) {
+            paintSprite(graphics, ball);
+        }
     }
 
     private void paintDottedLine(Graphics graphics) {
@@ -60,5 +72,10 @@ public class PongPanel extends JPanel implements ActionListener, KeyListener {
         graphics2D.setPaint(Color.WHITE);
         graphics2D.drawLine(getWidth() / 2, 0, getWidth() / 2, getHeight());
         graphics2D.dispose();
+    }
+
+    private void paintSprite(Graphics g, Sprite sprite) {
+        g.setColor(sprite.getColour());
+        g.fillRect(sprite.getXPosition(), sprite.getYPosition(), sprite.getWidth(), sprite.getHeight());
     }
 }

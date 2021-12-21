@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5def122-c868-4a58-83b8-989ff0729aa3" name="Changes" comment="- test setyPosition(newY, panelHeight)">
+    <list default="true" id="d5def122-c868-4a58-83b8-989ff0729aa3" name="Changes" comment="- Sprite class completed">
+      <change afterPath="$PROJECT_DIR$/src/main/Ball.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/PongPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/PongPanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Sprite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Sprite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/TestPong.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/TestPong.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +27,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -59,7 +64,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="JUnit.TestPong">
+  <component name="RunManager" selected="Application.Pong">
     <configuration name="Pong" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.Pong" />
       <module name="Pong" />
@@ -86,9 +91,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Pong" />
         <item itemvalue="JUnit.TestPong" />
         <item itemvalue="JUnit.All in Pong" />
-        <item itemvalue="Application.Pong" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639976325264</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="- Sprite class completed">
+      <created>1640043553178</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1640043553178</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,6 +235,7 @@
     <MESSAGE value="- add code for keeping within bounds" />
     <MESSAGE value="- add empty test" />
     <MESSAGE value="- test setyPosition(newY, panelHeight)" />
-    <option name="LAST_COMMIT_MESSAGE" value="- test setyPosition(newY, panelHeight)" />
+    <MESSAGE value="- Sprite class completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Sprite class completed" />
   </component>
 </project>

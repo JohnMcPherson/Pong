@@ -16,8 +16,8 @@ public class TestPong {
     }
 
     private void testxBoundary(Sprite sprite, int newX, int panelWidth, int expectedX) {
-        sprite.setxPosition(newX, panelWidth);
-        int resultantX = sprite.getxPosition();
+        sprite.setXPosition(newX, panelWidth);
+        int resultantX = sprite.getXPosition();
         assertEquals(resultantX, expectedX);
     }
 
@@ -32,8 +32,8 @@ public class TestPong {
     }
 
     private void testyBoundary(Sprite sprite, int newY, int panelHeight, int expectedY) {
-        sprite.setyPosition(newY, panelHeight);
-        int resultantY = sprite.getyPosition();
+        sprite.setYPosition(newY, panelHeight);
+        int resultantY = sprite.getYPosition();
         assertEquals(resultantY, expectedY);
     }
 }

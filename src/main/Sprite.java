@@ -10,22 +10,14 @@ public class Sprite {
     private int width, height;
     private Color colour;
 
-    public void setxPosition(int xPosition) {
-        this.xPosition = xPosition;
-    }
-
-    public void setxPosition(int newX, int panelWidth) {
-        this.xPosition = getWithinBounds(newX, panelWidth - width);
-    }
-
     public void setInitialPosition(int initialXPosition, int initialYPosition) {
         this.initialXPosition = initialXPosition;
         this.initialYPosition = initialYPosition;
     }
 
     public void resetToInitialPosition() {
-        setxPosition(initialXPosition);
-        setyPosition(initialYPosition);
+        setXPosition(initialXPosition);
+        setYPosition(initialYPosition);
     }
 
     private int getWithinBounds(int proposedValue, int maximum) {
@@ -34,20 +26,27 @@ public class Sprite {
         else return proposedValue;
     }
 
+    public void setXPosition(int xPosition) {
+        this.xPosition = xPosition;
+    }
 
-    public int getxPosition() {
+    public void setXPosition(int newX, int panelWidth) {
+        this.xPosition = getWithinBounds(newX, panelWidth - width);
+    }
+
+    public int getXPosition() {
         return xPosition;
     }
 
-    public void setyPosition(int yPosition) {
+    public void setYPosition(int yPosition) {
         this.yPosition = yPosition;
     }
 
-    public void setyPosition(int newY, int panelHeight) {
+    public void setYPosition(int newY, int panelHeight) {
         this.yPosition = getWithinBounds(newY, panelHeight - height);
     }
 
-    public int getyPosition() {
+    public int getYPosition() {
         return yPosition;
     }
 
@@ -83,15 +82,15 @@ public class Sprite {
         return height;
     }
 
-    public void setColor(Color colour) {
+    public void setColour(Color colour) {
         this.colour = colour;
     }
 
-    public Color getColor() {
+    public Color getColour() {
         return colour;
     }
 
     public Rectangle getRectangle() {
-        return new Rectangle(getxPosition(), getyPosition(), getWidth(), getHeight());
+        return new Rectangle(getXPosition(), getYPosition(), getWidth(), getHeight());
     }
 }
