@@ -3,9 +3,9 @@ package main;
 import java.awt.*;
 
 public class Ball extends Sprite {
-    final static Color BALL_COLOUR = Color.WHITE;
     final static int BALL_WIDTH = 25;
     final static int BALL_HEIGHT = 25;
+    final static Color BALL_COLOUR = Color.WHITE;
 
     public Ball (int panelWidth, int panelHeight) {
         setWidth(BALL_WIDTH);
